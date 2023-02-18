@@ -7,13 +7,7 @@ import "../css/styles.css"
 
 type Props = {
     gridType: number
-    children: [
-        ReactNode,
-        ReactNode,
-        ReactNode,
-        ReactNode,
-        ReactNode
-    ]
+    children: ReactNode[]
 }
 
 const CustomGrid = ({ gridType = 2, children }: Props) => {
